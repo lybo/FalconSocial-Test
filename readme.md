@@ -2,15 +2,15 @@
 
 ## Commence the application
 
-	I use the nodemon module. If your script exits cleanly, nodemon will continue to monitor the directory (or directories) and restart the script if there are any changes.
+I use the nodemon module. If your script exits cleanly, nodemon will continue to monitor the directory (or directories) and restart the script if there are any changes.
 
 	npm start
 	running in: http://localhost:3000/
 
 ## Requirements
 
-	[mongoDB](http://www.mongodb.org/)
-	[install mongoDB](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
+*[mongoDB](http://www.mongodb.org/)
+*[install mongoDB](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
 
 ## About the 1st Part of the Test
 
