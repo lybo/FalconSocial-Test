@@ -2,10 +2,8 @@
 
 ## Commence the application
 
-I use the nodemon module. If your script exits cleanly, nodemon will continue to monitor the directory (or directories) and restart the script if there are any changes.
-
-	npm start
-	running in: http://localhost:3000/
+* node app.js
+* running in: http://localhost:3000/
 
 ## Requirements
 
