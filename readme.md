@@ -9,8 +9,8 @@ I use the nodemon module. If your script exits cleanly, nodemon will continue to
 
 ## Requirements
 
-*[mongoDB](http://www.mongodb.org/)
-*[install mongoDB](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
+* [mongoDB](http://www.mongodb.org/)
+* [install mongoDB](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
 
 ## About the 1st Part of the Test
 
