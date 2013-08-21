@@ -1,0 +1,35 @@
+<% include _head %>
+	<script src="/socket.io/socket.io.js"></script>
+    <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/js/knockout-2.3.0.js" type="text/javascript"></script>
+    <script src="/js/d3.v3.js" type="text/javascript"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<link href="/css/chart.less" rel="stylesheet" type="text/less" />
+	<script src="/js/chart.js" type="text/javascript"></script>
+
+	
+<% include _header %>
+
+
+	<div class="container-fluid" style="margin-top: 50px;">
+	    <div class="row-fluid">
+	    	
+
+			<div class="span12">
+		
+    			<ul class="nav nav-pills">
+					<li><a href="#" data-bind="click: showAll">All</a></li>
+					<li><a href="#" data-bind="click: showTotal">Total</a></li>
+					<li><a href="#" data-bind="click: showOrganic">Organic</a></li>
+					<li><a href="#" data-bind="click: showViral">Viral</a></li>
+					<li><a href="#" data-bind="click: showPaid">Paid</a></li>
+				</ul>
+
+				<div class="tab-pane active" id="chart" ></div>
+					
+	    	</div>
+
+		</div>
+	</div>
+	    		
+<% include _footer %>

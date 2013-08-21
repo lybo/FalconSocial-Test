@@ -1,0 +1,94 @@
+@post_impressions_color: #D1BBE0;
+@post_impressions_organic_color: #BBE0D3;
+@post_impressions_viral_color: #eab2bb;
+@post_impressions_paid_color: #eae4b2;
+
+@post_impressions_color_lighten: lighten(@post_impressions_color, 10%);
+@post_impressions_organic_color_lighten: lighten(@post_impressions_organic_color, 14%);
+@post_impressions_viral_color_lighten: lighten(@post_impressions_viral_color, 5%);
+@post_impressions_paid_color_lighten: lighten(@post_impressions_paid_color, 10%);
+
+.area(@color, @opacity: 1) {
+	fill-opacity: @opacity;
+  	fill: @color;
+}
+
+.line(@color) {
+	fill: none;
+  	stroke: @color;
+  	stroke-width: 1.5px;
+}
+
+#chart {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.post_impressions.area {
+	.area(@post_impressions_color_lighten, 0.5)
+}
+
+.post_impressions.line {
+  	.line(@post_impressions_color)
+}
+
+.post_impressions_organic.area {
+	.area(@post_impressions_organic_color_lighten, 0.7)
+}
+
+.post_impressions_organic.line {
+  	.line(@post_impressions_organic_color)
+}
+
+.post_impressions_viral.area {
+	.area(@post_impressions_viral_color_lighten, 0.8)
+}
+
+.post_impressions_viral.line {
+  	.line(@post_impressions_viral_color)
+}
+
+.post_impressions_paid.area {
+	.area(@post_impressions_paid_color_lighten)
+}
+
+.post_impressions_paid.line {
+  	.line(@post_impressions_paid_color)
+}
+
+.hide{
+	display: none;
+}
+
+circle{
+	fill: #aaa;
+	stroke-width: 3px;
+	stroke: #fff;
+}
+
+circle.load{
+	opacity: 1;
+}
+
+circle:hover{
+	stroke-width: 1px;	
+}
+
+
+.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 100px;                                   
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: lightsteelblue;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
