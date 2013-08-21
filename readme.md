@@ -68,4 +68,4 @@ There is a listener at file: `app.js`
 
 ### Websocket
 
-The same as above. I you want to check the result you can do a request `http://localhost:3000/get_new_impressions` and see the results.
+The same as above. If you want to check the result you can do a request `http://localhost:3000/get_new_impressions` and see the results.
